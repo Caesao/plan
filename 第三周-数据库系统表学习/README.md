@@ -3,7 +3,7 @@ Table of Contents
 
   * [1 数据库读写文件](#1-数据库读写文件)
      * [1.1 读取文件](#11-读取文件)
-           * [load_file()](#load_file)
+               * [load_file()](#load_file)
                * [load data infile](#load-data-infile)
                * [system cat (Linux)](#system-cat-linux)
      * [1.2 写入文件](#12-写入文件)
