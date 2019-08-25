@@ -3,11 +3,7 @@ Table of Contents
 
   * [1 数据库读写文件](#1-数据库读写文件)
      * [1.1 读取文件](#11-读取文件)
-           * [load_file()](#load_file)
-               * [load data infile](#load-data-infile)
-               * [system cat (Linux)](#system-cat-linux)
      * [1.2 写入文件](#12-写入文件)
-           * [outfile](#outfile)
   * [2 数据库系统表学习](#2-数据库系统表学习)
      * [2.1 介绍](#21-介绍)
         * [2.1.1 information_schema](#211-information_schema)
@@ -36,14 +32,14 @@ Table of Contents
 show global variables like 'secure_file_priv';
 ```
 
-![1566050098609](../%E7%AC%AC%E4%B8%89%E5%91%A8-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E8%A1%A8%E7%9B%B8%E5%85%B3%E5%AD%A6%E4%B9%A0/assets/1566050098609.png) 
+![1566050098609](assets/1566050098609.png) 
 
 ```mysql
 select user();
 select * from mysql.user where user='root'\G;
 ```
 
-![1566050288460](../%E7%AC%AC%E4%B8%89%E5%91%A8-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E8%A1%A8%E7%9B%B8%E5%85%B3%E5%AD%A6%E4%B9%A0/assets/1566050288460.png) 
+![1566050288460](assets/1566050288460.png) 
 
 或者：
 
@@ -51,7 +47,7 @@ select * from mysql.user where user='root'\G;
 show grants for root@localhost;
 ```
 
-![1566050409235](../%E7%AC%AC%E4%B8%89%E5%91%A8-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E8%A1%A8%E7%9B%B8%E5%85%B3%E5%AD%A6%E4%B9%A0/assets/1566050409235.png) 
+![1566050409235](assets/1566050409235.png) 
 
 当前是 root 用户，具有所有权限。
 
